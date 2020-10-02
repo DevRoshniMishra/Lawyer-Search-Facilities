@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border
+}
+.banner-section{
+	width: 100%;
+	height:80vh;
+	background-image: url('../lawyerProject/image/240_F_320400788_B7afiqb9ghjKwbuOzhcFlBa5xwN6cDxe.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+
+}
+.colorchange{
+	padding-top:200px;
+}
+
+nav{
+	background: #fff !important;
+}
+.nav-link,.navbar-brand,.dropdown-item{
+	color: #918585 !important;
+}
+.btnimp{
+	border: 1px solid white;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: black;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+
+
+}
+
+
+.header-section{
+	width: 100%;
+	height:inherit;
+	color:grey;
+	text-align: center;
+	position: relative;
+	margin-top: 100px;
+}
+.header-extradiv{
+	width: 100%;
+	height: auto;
+	margin: 100px 0;
+	text-align: center;
+
+}
+
+.extra-div{
+	background: #fff;
+	border: medium none;
+	padding:50px !important;
+	border-radius: 3px;
+	transition: 0.5s;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+
+.change_content:after{
+	content: '';
+	animation: changetext 10s infinite linear;
+	color:  #50d1c0;
+	font-weight: bold;
+	text-transform: uppercase; 
+
+
+}
+@keyframes changetext{
+	0%{content:"Criminal ";}
+	10%{content:"Cooperative";}
+	20%{content:"Business";}
+	30%{content:"Human rights";}
+	40%{content:"industrial";}
+	50%{content:"legal agreements";}
+	60%{content:"Notaries";}
+	70%{content:"Divorce";}
+	80%{content:"legal agreements";}
+	90%{content:"Muslim Law";}
+	100%{content:"Domestic Voilence";}
+
+
+}
+.serviceoffers{
+	background: #50d1c0;
+	padding: 50px 0;
+	margin-bottom: 50px;
+}
+.headings{
+	margin-bottom: 50px;
+
+}
+.headings h1{
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.name h1{
+	color: #2e2e2e;
+	font-size: 0.9rem;
+	text-transform:uppercase;
+	font-weight: bold;
+
+
+}
+.service-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.progress{
+	height: 0.7rem !important;
+	margin-bottom: 25px !important;
+	background: #606060;
+}
+i{
+	color: #2fccd0;
+}
+
+.project-work{
+	margin: 100px 0;
+}
+.project-work h1{
+	font-size: 2rem;
+	text-align: center;
+	
+
+}
+.experts{
+	width: 100%;
+	height: 100vh;
+	padding: 50px;
+	position: relative;
+}
+.experts:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	
+	z-index: -1;
+	background: linear-gradient(160deg,  #50d1c0 55%, #fff 0%);
+
+}
+.money{
+	font-size: 40px;
+	line-height: 1;
+	color: #606060;
+}
+.card{
+	transition: 0.4s ease;
+}
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background: #fff !important;
+	padding: 25px 0 !important;
+
+
+}
+.card-body{
+	padding: 15px 0px !important;
+
+}
+.card-body li{
+	margin: 10px 0;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #606060;
+	list-style: none;
+
+}
+.card-footer{
+	background: white !important;
+	padding: 15px 0px !important;
+}
+.card-footer a {
+	border: 1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px ;
+	outline: none;
+	color: #50d1c0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+.card-footer a:hover{
+	color:#fff;
+	background:#50d1c0;
+	text-decoration: none;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+
+}
+.card:hover{
+	transform: translateY(-20px);
+	box-shadow:  0 0 20px rgba(0, 0, 0, 0.3); 
+}
+.card:hover .card-header,.card:hover .money{
+	color: #50d1c0;
+}
+.happyclients{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+
+}
+.box{
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+	border-radius: 2px;
+	transition: 0.3s ease;
+}
+.box:hover{
+	background: #16c9f6;
+}
+.box:hover p {
+	color: white;
+}
+.carousel-indicators{
+	position: absolute;
+	right: 0;
+	bottom: -60px !important;
+}
+.carousel-indicators li{
+	background-color: #16c9f6 !important;
+}
+.box a{
+	position: relative;
+
+}
+.box a img{
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	margin-top: 20px;
+}
+.box h1{
+	font-size:18px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 10px;
+}
+.box h2{
+	font-size: 13px;
+	font-weight: 400;
+	color: #606060;
+	margin-bottom: 20px;
+
+}
+.contactus{
+	width: 70%;
+	margin: auto;
+
+}
+.form-button button{
+	border: 1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+	background: transparent;
+	color: black;
+
+}
+.box1{
+/* 	text-align: center; */
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+	border-radius: 2px;
+	transition: 0.3s ease;
+	margin-left: 30px;
+
+}
+.contact-box{
+/* 	text-align: center; */
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+	border-radius: 2px;
+	transition: 0.3s ease;
+	background: white;
+	width: 75%;
+	padding: 15px;
+	margin: auto
+
+
+}
+.box1:hover{
+	background:white;
+}
+
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background:black;
+	position: relative;
+	
+}
+.footersection p{
+	color: #fff;
+}
+.footersection{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+
+
+}
+.portfolio{
+	height: 1500px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+.portfolio h1{
+	font-size: 30px;
+	font-weight: bold;
+
+}
+.card1{
+	margin-top:40px;
+
+}
+.cardtext{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contactuslogin{
+	background: white;
+	margin-bottom: 100px;
+	padding:10px;
+}
+.contactusprovider{
+	background: white;
+	margin: 10px;
+}
+
+
+
+
+
+
+
